@@ -7,7 +7,7 @@ export const StyledWrapper = styled.section`
   background-color: ${({ theme }) => theme.colors.lightOrange};
   width: 100%;
   height: calc(100vh - 6.494rem);
-  min-height: -webkit-fill-available;
+  max-height: -webkit-fill-available;
 
   @media (min-width: 1024px) {
     height: calc(100vh - 7.082rem);
@@ -145,6 +145,6 @@ export const OpinionLink = styled(NavLink)`
   }
 
   @media (min-width: 768px) {
-    top: 95%;
+    bottom: 5%;
   }
 `;

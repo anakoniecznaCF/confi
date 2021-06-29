@@ -42,6 +42,10 @@ export const FormTitle = styled.h3`
   text-transform: uppercase;
   color: ${({ theme }) => theme.colors.purple};
   font-weight: 700;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const Text = styled.p`

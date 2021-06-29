@@ -11,7 +11,7 @@ export default styled(NavLink)`
   font-size: 1.5rem;
   color: ${({ theme }) => theme.colors.black};
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   transition: all 0.3s ease;
 

@@ -20,6 +20,10 @@ const Offers = ({ offers }) => {
   const [activeOffersSelect, setActiveOffersSelect] = useState('');
   const [activeOffersCheckbox, setActiveOffersCheckbox] = useState([]);
 
+  // const sortedOffers = offers.sort((a,b) => {
+  //   return a.status.split(' ')[1] > b.status.split(' ')[1] ? 1 : -1
+  // });
+
   const laptop = useDeviceWidth(1024)
 
   const selectedOffers =

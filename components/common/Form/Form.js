@@ -17,7 +17,7 @@ const Form = ({ template, contact, careerDetail, offer_name }) => {
   useEffect(() => {
     const messageTimer = setTimeout(() => {
       setMessage('');
-    }, 3000);
+    }, 10000);
 
     return () => clearTimeout(messageTimer);
   });

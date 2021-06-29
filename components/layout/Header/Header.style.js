@@ -57,7 +57,7 @@ export const NavListItem = styled.li`
   margin: 0 2rem;
 
   a {
-    font-weight: ${({ active }) => (active ? '700' : '500')};
+    /* font-weight: ${({ active }) => (active ? '700' : '500')}; */
     color: ${({ active, theme }) => (active ? theme.colors.purple : theme.colors.black)};
   }
 
